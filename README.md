@@ -1,4 +1,4 @@
-# advanced-tasks-javascript
+# Advanced tasks for JavaScript
 List of popular and important tasks for javascript which can be used for advanced skills testing
 
 ## The "this" problem
