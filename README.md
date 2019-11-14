@@ -16,4 +16,4 @@ This (*=The context*) is a special keyword inside each function and its value de
 As a result executed function is called with different context - setTimeout.
 
 You can fix this by passing a right context with **bind**.
->setTimeout(test.echo.bind(test), 100)
+`setTimeout(test.echo.bind(test), 100)`
