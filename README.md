@@ -15,5 +15,5 @@ What will be printed as a result and why?
 This (*=The context*) is a special keyword inside each function and its value depends on how the function was called. 
 As a result, executed function is called with different context from setTimeout.
 
-You can fix this by passing a right context with **bind**.
+You can fix this by passing the right context with **bind**.
 `setTimeout(test.echo.bind(test), 100)`
