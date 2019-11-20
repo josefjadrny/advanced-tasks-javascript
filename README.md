@@ -29,7 +29,7 @@ Are both sub-tasks valid and why? What will be printed as a result?
 >
 >Hi Josef
 
-First sub-task, the easier one returns an object as a named constant, where is a function call as value of named key "test".
+First sub-task, the easier one returns an object as a named constant, where is a function call as value of named key "test".  
 Second sub-task is valid notation of labels in JavaScript. It is a reference which can be called by "continue" or "break".
 
 ## Variable hoisting
@@ -50,7 +50,7 @@ What will be printed as a result of those sub-tasks and why?
 In JavaScript, declarations of variables (`var`) and functions are hoisted. That means those variables can be used before they are declared inside its scope (functional or global).
 This is why this code works. When the variable is hoisted and used before declaration, it's value is `undefined`.
 
-First sub-task is a typical example of variable hoisting when variable is declared later.
-Second sub-task is an ordinary output of declared and defined variable.
-Third sub-task is another example of hoisting in function scope when variable is redeclared in functional scope.
-Fourth sub-task is same as second. Global scope is not affected by redeclaring variable in function scope.
+First sub-task is a typical example of variable hoisting when variable is declared later.  
+Second sub-task is an ordinary output of declared and defined variable.  
+Third sub-task is another example of hoisting in function scope when variable is redeclared in functional scope.  
+Fourth sub-task is same as second. Global scope is not affected by redeclaring variable in function scope.  
