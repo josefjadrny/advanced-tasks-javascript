@@ -53,4 +53,19 @@ This is why this code works. When the variable is hoisted and used before declar
 1. First sub-task is a typical example of variable hoisting when variable is declared later.  
 1. Second sub-task is an ordinary output of declared and defined variable.  
 1. Third sub-task is another example of hoisting in function scope when variable is redeclared in functional scope.  
-1. Fourth sub-task is same as second. Global scope is not affected by redeclaring variable in function scope.  
+1. Fourth sub-task is same as second. Global scope is not affected by redeclaring variable in function scope.
+
+## Semicolons
+[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/semicolons.js)
+
+**Question:**
+Is this syntax valid? What will be printed as a result?
+
+**Answer:** 
+No it is not valid.
+>TypeError: Cannot read property 'Joe' of undefined
+
+Semicolons may be omitted in most cases because a newline implies a semicolon. But as always, there are exceptions.
+JavaScript does not assume a semicolon before square brackets. So code above is executed as a single statement (=_one-liner_) and results in Error.
+
+
