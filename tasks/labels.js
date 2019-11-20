@@ -9,5 +9,5 @@ const something = {
 }
 
 function someFunction() {
-  console.log('Hi Josef')
+  console.log('Hi Josef');
 }
