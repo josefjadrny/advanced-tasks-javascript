@@ -69,7 +69,7 @@ Semicolons may be omitted in most cases because a newline implies a semicolon. B
 JavaScript does not assume a semicolon before square brackets. So code above is executed as a single statement (=_one-liner_) and results in Error.
 
 ## Floating point problem
-[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/semicolons.js)
+[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/floatingPoint.js)
 
 **Question:**
 What will be printed as a result?
