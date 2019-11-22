@@ -75,7 +75,6 @@ JavaScript does not assume a semicolon before square brackets. So code above is 
 What will be printed as a result?
 
 **Answer:** 
-No it is not valid.
 >true
 >
 >false
