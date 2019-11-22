@@ -68,4 +68,19 @@ No it is not valid.
 Semicolons may be omitted in most cases because a newline implies a semicolon. But as always, there are exceptions.
 JavaScript does not assume a semicolon before square brackets. So code above is executed as a single statement (=_one-liner_) and results in Error.
 
+## Floating point problem
+[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/semicolons.js)
 
+**Question:**
+What will be printed as a result?
+
+**Answer:** 
+No it is not valid.
+>true
+>
+>false
+
+It's look like math does not work properly in Javascript, but this problem is related with how computers works and how numbers are stored.
+Let's skip a deep computer science lesson, we can just say that computer's cannot accurately represent a number like 0.1, 0.2 or 0.3.
+Those numbers are interpreted as their nearest number and this behavior can results in error.
+In fact, result of second sub-task is: `0.30000000000000004`
