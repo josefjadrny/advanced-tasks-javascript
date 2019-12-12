@@ -6,8 +6,9 @@ List of popular and important tasks for JavaScript which can be used for advance
 
 **Question:**
 What will be printed as a result and why?
+<details><summary>Answer</summary>
+<p>
 
-**Answer:**
 >Hi
 >
 >undefined
@@ -18,6 +19,8 @@ As a result, executed function is called with different context from setTimeout.
 You can fix this by passing the right context with **bind**.
 `setTimeout(test.echo.bind(test), 100)`
 
+</p>
+</details>
 ## Labels
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/labels.js)
 
