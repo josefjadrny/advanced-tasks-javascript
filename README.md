@@ -6,7 +6,7 @@ List of popular and important tasks for JavaScript which can be used for advance
 
 **Question:**
 What will be printed as a result and why?
-<details><summary>**Answer:**</summary>
+<details><summary> **Answer:** </summary>
 <p>
 
 >Hi
