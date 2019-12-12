@@ -6,7 +6,7 @@ List of popular and important tasks for JavaScript which can be used for advance
 
 **Question:**
 What will be printed as a result and why?
-<details><summary>Answer</summary>
+<details><summary>**Answer:**</summary>
 <p>
 
 >Hi
@@ -21,6 +21,7 @@ You can fix this by passing the right context with **bind**.
 
 </p>
 </details>
+
 ## Labels
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/labels.js)
 
