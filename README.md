@@ -83,3 +83,29 @@ It's look like math does not work properly in Javascript, but this problem is re
 Let's skip a deep computer science lesson, we can just say that computer's cannot accurately represent a number like 0.1, 0.2 or 0.3.
 Those numbers are interpreted as their nearest number and this behavior can results in error.
 In fact, result of second sub-task is: `0.30000000000000004`
+
+## Equality Operators
+[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/equalityOperator.js)
+
+**Question:**
+What will be printed as a result of those sub-tasks?
+
+**Answer:** 
+>false
+>
+>true
+>
+>false
+>
+>true
+>
+>false
+>
+>false
+
+1. NaN is not equal to itself or anything else.
+1. Null is a primitive but type of null is surprisingly an object. This is a known bug.
+1. Primitives are compared by their value, objects are compared by their reference.
+1. Null and undefined are considered equal to each other and to nothing else
+1. Same as previous
+1. Same as previous
