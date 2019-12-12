@@ -28,7 +28,9 @@ You can fix this by passing the right context with **bind**.
 **Question:**
 Are both sub-tasks valid and why? What will be printed as a result?
 
-**Answer:**
+<details><summary>SHOW ANSWER</summary>
+<p>
+
 >Hi Josef
 >
 >Hi Josef
@@ -36,13 +38,18 @@ Are both sub-tasks valid and why? What will be printed as a result?
 1. First sub-task, the easier one returns an object as a named constant, where is a function call as value of named key "test".  
 1. Second sub-task is valid notation of labels in JavaScript. It is a reference which can be called by "continue" or "break".
 
+</p>
+</details>
+
 ## Variable hoisting
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/varHoisting.js)
 
 **Question:**
 What will be printed as a result of those sub-tasks and why?
 
-**Answer:** 
+<details><summary>SHOW ANSWER</summary>
+<p>
+
 >undefined
 >
 >Hello!
@@ -59,18 +66,26 @@ This is why this code works. When the variable is hoisted and used before declar
 1. Third sub-task is another example of hoisting in function scope when variable is redeclared in functional scope.  
 1. Fourth sub-task is same as second. Global scope is not affected by redeclaring variable in function scope.
 
+</p>
+</details>
+
 ## Semicolons
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/semicolons.js)
 
 **Question:**
 Is this syntax valid? What will be printed as a result?
 
-**Answer:** 
+<details><summary>SHOW ANSWER</summary>
+<p>
+
 No it is not valid.
 >TypeError: Cannot read property 'Joe' of undefined
 
 Semicolons may be omitted in most cases because a newline implies a semicolon. But as always, there are exceptions.
 JavaScript does not assume a semicolon before square brackets. So code above is executed as a single statement (=_one-liner_) and results in Error.
+
+</p>
+</details>
 
 ## Floating point problem
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/floatingPoint.js)
@@ -78,7 +93,9 @@ JavaScript does not assume a semicolon before square brackets. So code above is 
 **Question:**
 What will be printed as a result?
 
-**Answer:** 
+<details><summary>SHOW ANSWER</summary>
+<p>
+
 >true
 >
 >false
@@ -88,13 +105,18 @@ Let's skip a deep computer science lesson, we can just say that computer's canno
 Those numbers are interpreted as their nearest number and this behavior can results in error.
 In fact, result of second sub-task is: `0.30000000000000004`
 
+</p>
+</details>
+
 ## Equality Operators
 [Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/equalityOperator.js)
 
 **Question:**
 What will be printed as a result of those sub-tasks?
 
-**Answer:** 
+<details><summary>SHOW ANSWER</summary>
+<p>
+
 >false
 >
 >true
@@ -113,3 +135,6 @@ What will be printed as a result of those sub-tasks?
 1. Null and undefined are considered equal to each other and to nothing else
 1. Same as previous
 1. Same as previous
+
+</p>
+</details>
