@@ -138,3 +138,20 @@ What will be printed as a result of those sub-tasks?
 
 </p>
 </details>
+
+## Finally paradox
+[Demo](https://github.com/josefjadrny/advanced-tasks-javascript/blob/master/tasks/finally.js)
+
+**Question:**
+What will be printed as a result?
+<details><summary>SHOW ANSWER</summary>
+<p>
+
+>Finally
+>
+>Second return
+
+`finally` gets called always! Even when you catch only one kind of exception (not the global catch), then `finally` gets also called.
+
+</p>
+</details>
